@@ -6,14 +6,14 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    
+   background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/47_-_black.jpg);
 }
 *{
     margin: 0;
     padding: 0;
 }
 .container{
-    background-color: #E9E7EA;
+    background-color: white;
     width: 1000px;
     max-width: 100%;
     margin: auto;
@@ -23,8 +23,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
-    
 }
 .image img{
     width:300px;
