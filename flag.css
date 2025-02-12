@@ -1,0 +1,45 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.flag {
+    width: 480px;
+    height: 260px;
+    position: relative;
+    border: 2px solid black;
+}
+.stripe {
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+.flag div:nth-child(even) {
+    background-color: white;
+}
+.union {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    background-color: navy;
+}
+.stars {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 3px;
+    padding: 5px;
+}
+.star {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
